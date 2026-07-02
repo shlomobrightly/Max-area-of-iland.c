@@ -29,6 +29,7 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize) {
             if (c > max) { max = c; }
         }
     }
+    
     for (int i = 0; i < gridSize; i++) {
         free(visited[i]);
     }
